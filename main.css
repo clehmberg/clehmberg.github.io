@@ -1,0 +1,140 @@
+$logo-clr: #ffc01f;
+$helio-gry: #3a393a;
+$content-clr: #cdcdcd;
+$header-clr: #fff;
+$card-clr: #545353;
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+#helio {
+  //display: flex;
+  margin: 30px, 30px;
+}
+
+header {
+  /*border: 1px solid white;*/
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+figure {
+  margin: 10px;
+  display: table;
+  position: relative;
+
+
+
+}
+.programImages {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+h2{
+  color: #ffc01f;
+  font-family: Helvetica;
+  margin: 0px;
+}
+html {
+  background-color: #3a393a;
+}
+.page-wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+img:not([src^='https://heliotraining.com']){
+  max-width: 223px;
+  height: 250px
+}
+
+.myInfo {
+  display: flex;
+  background-color: #666;
+
+
+}
+.choose div {
+  color: #ffc01f;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+.choose  ul {
+  padding-left: 15px;
+  list-style-position: inside;
+  color: white;
+  margin: 20px, 20px;
+}
+.info-remainder {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  //margin-bottom: 0px;
+}
+.name-date {
+  display: flex;
+  justify-content: space-between;
+}
+time {
+  color: white;
+  font-size: 1.5em;
+}
+
+#drips {
+  display: flex;
+height: 205px;
+}
+
+
+ul {
+  align-content: flex end;
+}
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  position: relative;
+  top: 10px;
+  bottom: 30px;
+  padding: 6px;
+  background: rgba(2, 2, 2, .7);
+  color: $content-clr;
+}
+
+h2, h3 {
+  color: $logo-clr;
+  margin: 0px;
+}
+
+p, li {
+  color: $content-clr;
+}
+.excited-learn {
+  margin-top: 20px;
+  background-color: $card-clr;
+  padding: 15px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: $card-clr;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: $content-clr;
+}
+h3 {
+  color: $logo-clr;
+}
+.excited {
+  margin: 0px;
+
+}
