@@ -1,8 +1,4 @@
-$logo-clr: #ffc01f;
-$helio-gry: #3a393a;
-$content-clr: #cdcdcd;
-$header-clr: #fff;
-$card-clr: #545353;
+
 
 * {
   box-sizing: border-box;
@@ -103,36 +99,34 @@ figcaption {
   bottom: 30px;
   padding: 6px;
   background: rgba(2, 2, 2, .7);
-  color: $content-clr;
+  color: white;
 }
 
 h2, h3 {
-  color: $logo-clr;
+  color: #ffc01f;
   margin: 0px;
 }
 
 p, li {
-  color: $content-clr;
+  color: white;
 }
 .excited-learn {
   margin-top: 20px;
-  background-color: $card-clr;
+  background-color: #545353;
   padding: 15px;
 }
 
 footer {
   margin-top: 20px;
-  background-color: $card-clr;
+  background-color: #545353;
   text-align: center;
 }
 a {
   text-decoration: none;
 }
-p {
-  color: $content-clr;
-}
+
 h3 {
-  color: $logo-clr;
+  color: #ffc01f;
 }
 .excited {
   margin: 0px;
